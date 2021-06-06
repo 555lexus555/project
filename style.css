@@ -60,6 +60,7 @@ h5 {
     .card {
         background-image: url(assets/Без\ имени\ phone.jpg);
         height: 100vh;
+        width: 100%;
     }
 }
     
