@@ -30,6 +30,7 @@
     column-gap: 40px;
     color: white;
     font-family: 'Raleway', sans-serif;
+    align-items: center;
     
 }
 h1 {
@@ -57,24 +58,35 @@ h5 {
 
 
 
-
 @media(max-width:1050px){
+    *{
+       overflow-y: auto; 
+    }
     .card {
         background-image: url(assets/Без\ имени\ phone.jpg);
-        height: 100vh;
-        margin:  auto;
+        background-repeat: round;
+        height: 100%;
+        margin: 0 auto;
         height: 1000px;
+        width: 100%;
+        align-items: center;
+        
         
     }
     h5 {
         margin-top: 50px;
+        font-size: 8px;
+    }
+    h1{
+        font-size: 40px;
+        margin-top: 300px;
     }
     h6 {
         font-size: 20px;
-        margin-top: 100px;
+        margin-top: 220px;
     }
 }
-    
+
 
 
 
